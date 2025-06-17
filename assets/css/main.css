@@ -3967,6 +3967,24 @@ Hero CSS o1 Start
   padding-top: 210px;
   padding-bottom: 215px;
 }
+
+@media screen and (max-width: 766px) {
+  .eb_h3-hero-single {
+   position: relative;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  max-height: 600px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: auto !important;
+  }
+  
+}
+
+
+
 .eb_h3-hero-single::before {
   position: absolute;
   left: 0;
@@ -3976,6 +3994,14 @@ Hero CSS o1 Start
   height: 100%;
   
   z-index: -1;
+}
+/* mobile view */
+@media (max-width: 767px) {
+  .eb_h3-hero-single {
+    width: 100%;
+  
+ 
+  }
 }
 .eb_h3-hero-shape {
   position: absolute;
@@ -4023,12 +4049,28 @@ Hero CSS o1 Start
   text-transform: uppercase;
   margin-bottom: 48px;
 }
+
+/* mobile devices */
+@media (max-width: 768px) {
+  .eb_h3-hero-content-title {
+    font-size: 30px !important;
+    margin-bottom: 30px;
+  }
+}
+
 .eb_h3-hero-content-title span {
   color: #9DFF20;
 }
 @media (max-width: 1199px) {
   .eb_h3-hero-content-title {
     font-size: 70px;
+  }
+}
+@media (max-width: 768px) {
+  .eb_h3-hero-content-title {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 991px) {
@@ -4038,13 +4080,13 @@ Hero CSS o1 Start
 }
 @media (max-width: 767px) {
   .eb_h3-hero-content-title {
-    font-size: 50px;
+    font-size: 12px;
     line-height: 1.2;
   }
 }
 @media (max-width: 575px) {
   .eb_h3-hero-content-title {
-    font-size: 42px;
+    font-size: 12px;
   }
 }
 @media (max-width: 480px) {
@@ -4057,6 +4099,8 @@ Hero CSS o1 Start
   border-radius: 6px;
   background: #FFF;
   height: 54px;
+  background-color: transparent;
+  color: transparent;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -4075,6 +4119,20 @@ Hero CSS o1 Start
   padding: 0 35px;
   gap: 6px;
 }
+
+@media (max-width: 768px) {
+  .eb_h3-hero-content a {
+    height: 44px;
+    font-size: 14px;
+    padding: 0 10px;
+    gap: 4px;
+      background-color: transparent;
+  color: transparent;
+
+  }
+}
+
+
 .eb_h3-hero-social {
   position: absolute;
   left: 30px;
@@ -4197,6 +4255,21 @@ Hero CSS o1 Start
   border-radius: 50%;
   opacity: 1;
 }
+
+@media only screen and (max-width: 600px) {
+ .h3_hero-active .h3_hero-pagination span.swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.24);
+  border-radius: 50%;
+  opacity: 1;
+}
+}
+
+
+
+
 .h3_hero-active .h3_hero-pagination span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #fff;
 }
