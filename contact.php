@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="html template">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Asad">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact</title>
+
+    <link rel="icon" href="assets/images/favicon.png">
+    <link rel="stylesheet"  href="assets/css/all.min.css"> 
+    <link rel="stylesheet"  href="assets/css/bootstrap.min.css"> 
+    <link rel="stylesheet"  href="assets/css/swiper-bundle.min.css"> 
+    <link rel="stylesheet"  href="assets/css/meanmenu.css"> 
+    <link rel="stylesheet"  href="assets/css/nice-select.css"> 
+    <link rel="stylesheet"  href="assets/css/animate.min.css"> 
+    <link rel="stylesheet"  href="assets/css/magnific-popup.css"> 
+    <link rel="stylesheet"  href="assets/css/main.css">
+
+  </head>
+  <body>
+
+    <!-- preloader start -->
+    <div class="loader-wrap">
+        <div class="loader">
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__ball"></div>
+        </div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- Cursor Animation -->
+  
+
+    <!-- sidebar-information-area-start -->
+    <div class="sidebar-info side-info">
+        <div class="sidebar-logo-wrapper mb-25">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-8">
+                    <div class="sidebar-logo">
+                        <a href="index.html"><img src="assets/images/logo/logo.jpg" alt="logo-img"></a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-4">
+                    <div class="sidebar-close-wrapper text-end">
+                        <button class="sidebar-close side-info-close"><i class="fal fa-times"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar-menu-wrapper fix">
+            <div class="mobile-menu"></div>
+        </div>
+
+        <div class="sidebar-contact-wrapper mt-40">
+            <div class="sidebar-contact mb-40">
+                <h4 class="sidebar-contact-title">Contact Info</h4>
+                <span class="sidebar-address"><i class="fal fa-map-marker-alt"></i><span>4929 Thorn Street Crow heart, WY 82512</span> </span>
+                <a href="tel:+1(251)410-1010"><i class="fal fa-phone"></i><span>+1 (251) 410-1010</span></a>
+                <a href="mailto:example@gmail.com" class="theme-3"><i class="fal fa-envelope"></i><span><span>example@gmail.com</span></span></a>   
+            </div>
+
+            <div class="sidebar-social mt-40 mb-30">
+                <a href="#" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" class="youtube"><i class="fab fa-dribbble"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas-overlay"></div>
+    <!-- sidebar-information-area-end -->
+
+
+    <div class="has-smooth" id="has_smooth"></div>
+    
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <div class="body-wrapper">
+                <!-- Start Main Header -->
+                <header class="eb_h3-header-area">
+                    <div class="eb_h3-header-top">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-12">
+                                    <div class="eb_h3-header-top-address d-flex justify-content-end">
+                                        <ul class="nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-current="page" href="#">
+                                                    <img src="assets/flag/Uk.webp" width="20" alt="USA">
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <img src="assets/flag/Uk.webp" width="20" alt="UK">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="eb_h3-header-main">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-xl-2 col-lg-2 col-6">
+                                    <div class="eb_h2-header-logo">
+                                        <a href="index.html"><img src="assets/img/logo/logo.jpg" class="w-50" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-7 col-lg-7 d-none d-lg-block">
+                                    <div class="eb_h2-header-menu">
+                                        <nav id="mobile-menu">
+                                            <ul>
+                                                <li class="">
+                                                    <a href="index.html">Home</a>
+
+                                                </li>
+                                                <li class="">
+                                                    <a href="about.html">About Us</a>
+
+                                                </li>
+                                                <li class="">
+                                                    <a href="team.html"> Our Team</a>
+
+                                                </li>
+                                                <li class="">
+                                                    <a href="blog.html"> Blogs</a>
+
+                                                </li>
+
+
+
+
+
+
+                                                <li><a href="faq.html">FAQ</a></li>
+                                              <li class="menu-has-child">
+    <a href="#">Services</a>
+    <ul class="submenu">
+        <li><a href="bookkeeping-services.html">Bookkeeping Services</a></li>
+        <li><a href="catch-up-bookkeeping.html">Catch-Up Bookkeeping</a></li>
+        <li><a href="accounts-payable-services.html">Accounts Payable Services</a></li>
+        <li><a href="accounts-receivable-services.html">Accounts Receivable Services</a></li>
+        <li><a href="payroll-management.html">Payroll Management</a></li>
+        <li><a href="tax-preparation.html">Tax Preparation</a></li>
+        <li><a href="financial-reporting-insights.html">Financial Reporting & Insights</a></li>
+        <li><a href="budgeting-forecasting.html">Budgeting & Forecasting</a></li>
+        <li><a href="cpa-assistance.html">CPA Assistance</a></li>
+    </ul>
+</li>
+
+
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-3 col-6">
+                                    <div class="eb_h2-header-action">
+                                        <a href="contact.html" class="eb_h3-theme-btn">Contact</a>
+                                        <div class="eb_h4-menubar side-toggle d-lg-none">
+                                            <span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- Start Main Header -->
+
+                <!-- breadcrumb area start -->
+                <section class="eb-breadcrumb-area">
+                    <div class="eb-breadcrumb-wrap">
+                        <div class="eb-breadcrumb-content">
+                            <h1 class="heading__reveal_anim">Contact</h1>
+                            <div class="eb-breadcrumb-list subtitle__reveal_anim">
+                                <a href="#">Home</a>
+                                <span>Contact</span>
+                            </div>
+                        </div>
+                     
+                        
+                    </div>
+                </section>
+                <!-- breadcrumb area end -->
+
+                <!-- contact area start -->
+                <section class="contact-area pt-120 pb-120">
+                    <div class="container">
+                        <div class="contact-wrap">
+                            <div class="row">
+                                <div class="col-xl-8 col-md-8">
+                                    <div class="contact-content pr-80 mb-20">
+                                        <h3 class="contact-title mb-25">Send Me Message</h3>
+                                        <form action="#" class="contact-form">
+                                            <div class="row">
+                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-6">
+                                                    <div class="contact-form-input mb-30">
+                                                        <input type="text" placeholder="Your Name">
+                                                        <span class="inner-icon"><i class="fa-thin fa-user"></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-6">
+                                                    <div class="contact-form-input mb-30">
+                                                        <input type="email" placeholder="Email Address">
+                                                        <span class="inner-icon"><i class="fa-thin fa-envelope"></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-6">
+                                                    <div class="contact-form-input mb-30">
+                                                        <input type="text" placeholder="Your Number">
+                                                        <span class="inner-icon"><i class="fa-thin fa-phone-volume"></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-6 ">
+                                                    <div class="contact-form-input">
+                                                        <span class="inner-icon inner-icon-select"><i class="fa-thin fa-circle-exclamation"></i></span>
+                                                        <select name="select" class="contact-form-list has-nice-select mb-30">
+                                                            <option value="1">Select Subject</option>
+                                                            <option value="2">Art & Design</option>
+                                                            <option value="3">Graphic Design</option>
+                                                            <option value="4">Web Design</option>
+                                                            <option value="5">UX/UI Design</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="contact-form-input mb-50 contact-form-textarea">
+                                                        <textarea name="message" cols="30" rows="10" placeholder="Feel free to get in touch!"></textarea>
+                                                        <span class="inner-icon"><i class="fa-thin fa-pen"></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="contact-form-submit mb-30">
+                                                        <div class="contact-form-btn">
+                                                            <a href="#" class="eb_h3-theme-btn contact-btn">Send Message</a>
+                                                        </div>
+                                                        <div class="contact-form-condition">
+                                                            <label class="condition_label">I agree that my data is collected and stored.
+                                                                <input type="checkbox">
+                                                                <span class="check_mark"></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-4">
+                                    <div class="contact-info ml-50 mb-20">
+                                        <h3 class="contact-title mb-40">Get In Touch</h3>
+                                        <div class="contact-info-item">
+                                            <span><i class="fa-thin fa-location-dot"></i>Address</span>
+                                            <p>Hilton Conference Centre</p>
+                                        </div>
+                                        <div class="contact-info-item">
+                                            <span><i class="fa-thin fa-mobile-notch"></i>Phone</span>
+                                            <a href="tel:+123548645850">+123 548 6458 50</a>
+                                        </div>
+                                        <div class="contact-info-item">
+                                            <span><i class="fa-thin fa-envelope"></i>Email</span>
+                                            <a href="mailto:example@gmail.com">Example@gmail.com</a>
+                                        </div>
+                                        <div class="contact-social">
+                                            <span>Social Media</span>
+                                            <ul>
+                                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-map mt-4">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d147120.012062842!2d13.706000467398074!3d51.075159941942076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1senveto!5e0!3m2!1sen!2sbd!4v1680961754336!5m2!1sen!2sbd" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
+                <!-- contact area end -->
+
+                     
+   <!-- footer area start -->
+                <footer class="eb_h3-footer-area">
+                    <div class="eb_h3-footer-top pt-110 pb-80">
+
+                        <div class="container">
+                            <div class="row justify-content-between">
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-7">
+                                    <div class="eb_h3-footer-widget1 mb-30">
+                                        <div class="eb_h3-footer-logo">
+                                            <a href="index.html"><img src="assets/img/logo/logo-bg.png" alt=""></a>
+                                        </div>
+                                        <div class="d-flex justify-content-start">
+                                            <ul class="d-flex list-unstyled gap-3 m-0">
+                                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                            </ul>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-2 col-sm-5">
+                                    <div class="eb_h3-footer-widget mb-30">
+                                        <h3 class="eb_h3-footer-widget-title">
+                                       Quick Links
+                                        </h3>
+                                         <ul>
+                                          
+                                            <li><a href="blog.html">Blogs</a></li>
+                                            <li><a href="contact.html">Contact Us</a></li>
+                                            <li><a href="about.html">About US</a></li>
+                                            <li><a href="privacy-policy.html">privacy-policy</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                    <div class="col-xl-2 col-lg-2 col-sm-5">
+                                    <div class="eb_h3-footer-widget mb-30">
+                                        <h3 class="eb_h3-footer-widget-title">Services</h3>
+                                       <ul>
+                                            <li><a href="price.html">Pricing</a></li>
+                                            <li><a href="faq.html">FAQ</a></li>
+                                            <li><a href="blog.html">Blogs</a></li>
+                                            <li><a href="terms-and-conditions.html"> Terms and conditions</a></li>
+                                           
+                                        </ul>
+                                    </div>
+                                </div>
+                          
+                                <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-7 order-lg-4 order-sm-3">
+                                    <div class="eb_h3-footer-widget mb-30">
+                                        <h3 class="eb_h3-footer-widget-title">Addres </h3>
+
+                                        
+                                    </div>
+                                    <div class="eb_h3-footer-address">
+                                        <a href="#"><i class="fa-solid fa-location-dot"></i>London SO587 2kh <br>
+                                            GV25+G6 United Kingdom</a>
+                                        <a href="tel:+222682582368"><i class="fa-solid fa-phone"></i>+222 68 258
+                                            2368</a>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="eb_h3-footer-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 d-flex justify-content-center">
+                                    <div class="eb_h3-footer-copyright-text">
+                                        <p>©2025 All Rights Reserved by site</p>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-md-6">
+                                    <div class="eb_h3-footer-menu">
+                                        <ul>
+                                            <li><a href="#">Privacy Policy</a></li>
+                                            <li><a href="#">Term of Service</a></li>
+                                        </ul>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- footer area end -->
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery Js -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script> 
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollSmoother.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/TweenMax.min.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/chroma.min.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.bxslider.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/main.js"></script>
+ 
+  </body>
+
+</html>
