@@ -1,4 +1,9 @@
+<?php 
 
+$url =  "https://demo.tariniedifice.com/venira";
+//$url =  "http://localhost/venira-website-2";
+
+?>
     <!-- preloader start -->
     <div class="loader-wrap">
         <div class="loader">
@@ -20,9 +25,7 @@
         <div class="sidebar-logo-wrapper mb-25">
             <div class="row align-items-center">
                 <div class="col-xl-6 col-8">
-                    <!-- <div class="sidebar-logo">
-                        <a href="index.php"><img src="assets/images/logo/logo.jpg" alt="logo-img"></a>
-                    </div> -->
+                    <!-- -->
                 </div>
                 <div class="col-xl-6 col-4">
                     <div class="sidebar-close-wrapper text-end">
@@ -70,16 +73,16 @@
                                     <div class="eb_h3-header-top-address d-flex justify-content-end">
                                          <ul class="nav nav-tabs">
                                             <li class="nav-item">
-                                                <a class="nav-link" aria-current="page" href="#">
+                                                <a class="nav-link countrysel" aria-current="page" href="<?php echo $url; ?>/index.php">
                                                     <img src="assets/flag/Uk.webp" width="20" alt="USA">
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">
-                                                    <img src="assets/flag/Uk.webp" width="20" alt="UK">
+                                                <a class="nav-link" href="<?php echo $url; ?>/uk/index.php">
+                                                    <img src="assets/flag/usa.webp" width="20" alt="UK">
                                                 </a>
                                             </li>
-                                        </ul>
+                                        </ul> 
                                     </div>
                                 </div>
                             </div>
@@ -109,8 +112,8 @@
                                         <li><a href="team.php">Our Team</a></li>
 
                                         <li><a href="faq.php">FAQ</a></li>
-                                        <li><a href="contact.php">Privacy Policy</a></li>
-                                        <li><a href="terms.php">Terms & Conditions</a></li>
+                                        <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                                        <li><a href="terms-and-conditions.php">Terms & Conditions</a></li>
                                     </ul>
 
 
