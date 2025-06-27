@@ -1,6 +1,8 @@
 <?php 
 
 $url =  "https://demo.tariniedifice.com/venira";
+$urluk =  "https://demo.tariniedifice.com/venira/uk";
+$urlus =  "https://demo.tariniedifice.com/venira";
 //$url =  "http://localhost/venira-website-2";
 
 ?>
@@ -42,16 +44,18 @@ $url =  "https://demo.tariniedifice.com/venira";
         <div class="sidebar-contact-wrapper mt-40">
             <div class="sidebar-contact mb-40">
                 <h4 class="sidebar-contact-title">Contact Info</h4>
-                <span class="sidebar-address"><i class="fal fa-map-marker-alt"></i><span>4929 Thorn Street Crow heart, WY 82512</span> </span>
-                <a href="tel:+1(251)410-1010"><i class="fal fa-phone"></i><span>+1 (251) 410-1010</span></a>
-                <a href="mailto:example@gmail.com" class="theme-3"><i class="fal fa-envelope"></i><span><span>example@gmail.com</span></span></a>   
+                <span class="sidebar-address"><i class="fal fa-map-marker-alt"></i><span>5922 Nash ave , Westerville Ohio 43081 Company name: Venira Accountancy LLC</span> </span>
+                <a href="tel:+1(251)410-1010"><i class="fal fa-phone"></i><span>+1 (614) 680-8687</span></a>
+                <a href="mailto:marketing@veniraaccountancy.com" class="theme-3"><i class="fal fa-envelope"></i><span><span>marketing@veniraaccountancy.com</span></span></a>   
             </div>
 
             <div class="sidebar-social mt-40 mb-30">
-                <a href="#" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" target="_blank" class="youtube"><i class="fab fa-dribbble"></i></a>
+               
+                                                <a href="https://www.instagram.com/venira.accountancy_?igsh=MXFnZGNxYjdsODU3MQ%3D%3D&utm_source=qr" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                                <a href="https://www.facebook.com/share/1CSX3TMju7/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                                <a href="https://www.linkedin.com/in/venira-accountancy-359a5536a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        
+               
             </div>
         </div>
     </div>
@@ -73,12 +77,12 @@ $url =  "https://demo.tariniedifice.com/venira";
                                     <div class="eb_h3-header-top-address d-flex justify-content-end">
                                          <ul class="nav nav-tabs">
                                             <li class="nav-item">
-                                                <a class="nav-link countrysel" aria-current="page" href="<?php echo $url; ?>/index.php">
+                                                <a class="nav-link countrysel" aria-current="page" href="<?php echo $urluk; ?>/index.php">
                                                     <img src="assets/flag/Uk.webp" width="20" alt="USA">
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="<?php echo $url; ?>/uk/index.php">
+                                                <a class="nav-link" href="<?php echo $urlus; ?>/index.php">
                                                     <img src="assets/flag/usa.webp" width="20" alt="UK">
                                                 </a>
                                             </li>
@@ -133,6 +137,7 @@ $url =  "https://demo.tariniedifice.com/venira";
                                 <li class="menu-has-child">
                                     <a href="#">Services</a>
                                     <ul class="submenu">
+                                         <li><a href="cpa-assistance.php">CPA Assistance</a></li>
                                         <li><a href="bookkeeping-services.php">Bookkeeping Services</a></li>
                                         <li><a href="catch-up-bookkeeping.php">Catch-Up Bookkeeping</a></li>
                                         <li><a href="accounts-payable-services.php">Accounts Payable Services</a>
@@ -144,7 +149,7 @@ $url =  "https://demo.tariniedifice.com/venira";
                                         <li><a href="financial-reporting-insights.php">Financial Reporting &
                                                 Insights</a></li>
                                         <li><a href="budgeting-forecasting.php">Budgeting & Forecasting</a></li>
-                                        <li><a href="cpa-assistance.php">CPA Assistance</a></li>
+                                       
                                     </ul>
                                 </li>
                                 <li class="menu-has-child">
@@ -153,20 +158,20 @@ $url =  "https://demo.tariniedifice.com/venira";
                                         Industries</a>
                                     <ul class="submenu">
                                         <li><a href="travel-tourism.php">Travel & Tourism</a></li>
-                                        <li><a href="accounting-cpa-firms.php">Accounting CPA Firms</a></li>
+                                        <!-- <li><a href="accounting-cpa-firms.php">Accounting CPA Firms</a></li> -->
                                         <li><a href="construction.php">Construction</a></li>
                                         <li><a href="bars-restaurant.php">Bars & Restaurant</a></li>
                                         <li><a href="gyms-fitness.php">Gyms & Fitness</a></li>
-                                        <li><a href="consulting-services.php">Consulting Services</a></li>
-                                        <li><a href="scaffolding.php">Scaffolding</a></li>
-                                        <li><a href="property-management.php">Property Management</a></li>
+                                        <!-- <li><a href="consulting-services.php">Consulting Services</a></li> -->
+                                        <!-- <li><a href="scaffolding.php">Scaffolding</a></li> -->
+                                        <!-- <li><a href="property-management.php">Property Management</a></li> -->
                                         <li><a href="retail-wholesale.php">Retail & Wholesale</a></li>
-                                        <li><a href="salon.php">Salon</a></li>
-                                        <li><a href="e-commerce.php">E-Commerce</a></li>
+                                        <!-- <li><a href="salon.php">Salon</a></li> -->
+                                        <!-- <li><a href="e-commerce.php">E-Commerce</a></li> -->
                                         <li><a href="medical-health-wellness.php">Medical & Health Wellness</a></li>
                                         <li><a href="logistic-haulage.php">Logistic & Haulage</a></li>
                                         <li><a href="media-marketing.php">Media & Marketing</a></li>
-                                        <li><a href="entertainment.php">Entertainment</a></li>
+                                        <!-- <li><a href="entertainment.php">Entertainment</a></li> -->
 
                                     </ul>
                                 </li>

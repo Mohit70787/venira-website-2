@@ -54,10 +54,12 @@
 
                                     </div>
                                     <div class="eb_h3-footer-address">
-                                        <a href="#"><i class="fa-solid fa-location-dot"></i>London SO587 2kh <br>
-                                            GV25+G6 United Kingdom</a>
-                                        <a href="tel:+222682582368"><i class="fa-solid fa-phone"></i>+222 68 258
-                                            2368</a>
+                                        <a href="#"><i class="fa-solid fa-location-dot"></i>5922 Nash ave , Westerville Ohio 43081
+Company name: Venira Accountancy LLC</a>
+                                        <a href="tel:+16146808687"><i class="fa-solid fa-phone"></i>+1 (614) 680-8687</a>
+
+                                        <a href="mailto:marketing@veniraaccountancy.com"><i class="fa-solid fa-envelope"></i>
+                                        marketing@veniraaccountancy.com </a>
 
                                     </div>
                                 </div>

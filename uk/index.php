@@ -55,7 +55,18 @@
                                     type="video/mp4">
                             </video>
                             <!-- Text overlay -->
-                            <div class="video-text-overlay">
+                            <div class="video-text-overlay"  style="
+.eb_h3-hero-content-subtitle::before {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 34px;
+    height: 6px;
+    content: "";
+    border-radius: 20px;
+    background: rgb(157, 255, 32);
+  ">
                                 Simplify Your Financials <br>
                                 <span class="head-para">
                                     Bookkeeping & Accounting Services for CPAs and U.S. Businesses
@@ -129,8 +140,11 @@
                                         <span
                                             class="eb_h2-section-subtitle subtitle__reveal_anim subtitle__reveal_anim">our
                                             services</span>
-                                        <h2 class="eb_h2-section-title heading__reveal_anim">Digital Service with a
-                                            Creative Touch.</h2>
+                                        <h2 class="eb_h2-section-title heading__reveal_anim">
+                                           
+ 	
+What We Do
+.</h2>
                                     </div>
                                     <div class="eb-slider-navigation mb-50">
                                         <div class="eb-slider-navigation-prev service-prev-2">
@@ -911,7 +925,7 @@
                                         </div>
                                         <div class="contact-info-item">
                                             <span><i class="fa-thin fa-envelope"></i>Email</span>
-                                            <a href="mailto:example@gmail.com">Example@gmail.com</a>
+                                            <a href="mailto:marketing@veniraaccountancy.com">marketing@veniraaccountancy.com</a>
                                         </div>
                                         <div class="contact-social">
                                             <span>Social Media</span>

@@ -1,6 +1,8 @@
 <?php 
 
 $url =  "https://demo.tariniedifice.com/venira/uk";
+$urluk =  "https://demo.tariniedifice.com/venira/uk";
+$urlus =  "https://demo.tariniedifice.com/venira";
 //$url =  "http://localhost/venira-website-2";
 
 ?>
@@ -42,9 +44,9 @@ $url =  "https://demo.tariniedifice.com/venira/uk";
         <div class="sidebar-contact-wrapper mt-40">
             <div class="sidebar-contact mb-40">
                 <h4 class="sidebar-contact-title">Contact Info</h4>
-                <span class="sidebar-address"><i class="fal fa-map-marker-alt"></i><span>4929 Thorn Street Crow heart, WY 82512</span> </span>
-                <a href="tel:+1(251)410-1010"><i class="fal fa-phone"></i><span>+1 (251) 410-1010</span></a>
-                <a href="mailto:example@gmail.com" class="theme-3"><i class="fal fa-envelope"></i><span><span>example@gmail.com</span></span></a>   
+                <span class="sidebar-address"><i class="fal fa-map-marker-alt"></i><span>5922 Nash ave , Westerville Ohio 43081 Company name: Venira Accountancy LLC</span> </span>
+                <a href="tel:+1(251)410-1010"><i class="fal fa-phone"></i><span>+1 (614) 680-8687</span></a>
+                <a href="mailto:marketing@veniraaccountancy.com" class="theme-3"><i class="fal fa-envelope"></i><span><span>marketing@veniraaccountancy.com</span></span></a>   
             </div>
 
             <div class="sidebar-social mt-40 mb-30">
@@ -73,12 +75,12 @@ $url =  "https://demo.tariniedifice.com/venira/uk";
                                     <div class="eb_h3-header-top-address d-flex justify-content-end">
                                          <ul class="nav nav-tabs">
                                             <li class="nav-item">
-                                                <a class="nav-link" aria-current="page" href="<?php echo $url; ?>/index.php">
+                                                <a class="nav-link" aria-current="page" href="<?php echo $urlus; ?>/index.php">
                                                     <img src="assets/flag/Uk.webp" width="20" alt="USA">
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link countrysel" href="<?php echo $url; ?>/uk/index.php">
+                                                <a class="nav-link countrysel" href="<?php echo $urluk; ?>/index.php">
                                                     <img src="assets/flag/usa.webp" width="20" alt="UK">
                                                 </a>
                                             </li>

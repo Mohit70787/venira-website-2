@@ -124,7 +124,7 @@
                                         </div>
                                         <div class="contact-info-item">
                                             <span><i class="fa-thin fa-envelope"></i>Email</span>
-                                            <a href="mailto:example@gmail.com">Example@gmail.com</a>
+                                            <a href="mailto:marketing@veniraaccountancy.com">marketing@veniraaccountancy.com</a>
                                         </div>
                                         <div class="contact-social">
                                             <span>Social Media</span>
